@@ -43,3 +43,41 @@ chmod +x ~/.docker/cli-plugins/docker-compose
 
 3️⃣ Kiểm tra
 docker compose version
+
+Lệnh cài 
+# Cài Cloudflare để lấy link 
+get https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -O cloudflared
+
+
+chmod +x cloudflared
+
+sudo mv cloudflared /usr/local/bin/
+
+nohup cloudflared tunnel --url http://localhost:80 > cloudflared.log 2>&1 &
+
+cat cloudflared.log
+
+nếu lỗi link không vào được chạy (BETA)
+
+
+# Panel cài đặt #
+bash <(curl -s https://raw.githubusercontent.com/trockboppro/panelnoip/refs/heads/main/panel)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Wings #
+sudo su
+bash <(curl -s https://raw.githubusercontent.com/trockboppro/panelnoip/refs/heads/main/wings)
+
+-----------------------------------------
+cd pterodactyl
+------------------------------------------
+sudo su
+------------------------------------------
+nano /etc/pterodactyl/config.yml
+------------------------------------------
+pass vô config , config node của bạn
+------------------------------------------
+cd wings
+------------------------------------------
+docker-compose up -d --force-recreate
+
+
