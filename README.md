@@ -25,6 +25,7 @@ hoạt động tốt trên **VPS không cần IPv4**, hỗ trợ:
 ## 🐦 Cài đặt Pterodactyl Panel (Không cần IPv4)
 
 > Yêu cầu: Ubuntu 20.04 / 22.04 / 24.04
+> Nếu cần cài dash : helictyl v14 link ()
 
 ### 1️⃣ Chuẩn bị hệ thống
 ```bash
