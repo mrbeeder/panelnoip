@@ -1,3 +1,5 @@
+![GitHub Release]([https://builtbybit.com/attachments/heliactyl-png.752789/?variant=display](https://camo.githubusercontent.com/c4afa402e939b5a4619dfbd7d31864c30e21c6655566a9d60ecd2d48fa5683ac/68747470733a2f2f63646e2e707465726f64616374796c2e696f2f736974652d6173736574732f707465726f64616374796c5f76315f64656d6f2e676966))
+
 # ☁️ Beedercloud Panel
 
 ██████╗ ███████╗███████╗██████╗ ███████╗██████╗ 
