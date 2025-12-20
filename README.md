@@ -40,12 +40,11 @@ apt install curl sudo git -y
 1️⃣ Cài Docker (nếu chưa có)
 curl -fsSL https://get.docker.com | sh
 systemctl enable --now docker
+apt update
+apt install docker-compose -y
 
 2️⃣ Cài Docker Compose v2 (plugin)
-mkdir -p ~/.docker/cli-plugins
-curl -SL https://github.com/docker/compose/releases/latest/download/docker-compose-linux-x86_64 \
--o ~/.docker/cli-plugins/docker-compose
-chmod +x ~/.docker/cli-plugins/docker-compose
+apt install docker-compose-plugin -y
 
 3️⃣ Kiểm tra
 docker compose version
