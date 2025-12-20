@@ -52,7 +52,7 @@ docker compose version
 
 Lệnh cài 
 # Cài Cloudflare để lấy link 
-get https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -O cloudflared
+wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -O cloudflared
 
 
 chmod +x cloudflared
