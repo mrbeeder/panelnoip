@@ -67,11 +67,11 @@ nếu lỗi link không vào được chạy (BETA)
 
 
 # Panel cài đặt #
-bash <(curl -s https://raw.githubusercontent.com/trockboppro/pterodactyl/refs/heads/main/panel)
+bash <(curl -s https://raw.githubusercontent.com/trockboppro/panelnoip/refs/heads/main/panel)
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Wings #
 sudo su
-bash <(curl -s https://raw.githubusercontent.com/trockboppro/pterodactyl/refs/heads/main/wings)
+bash <(curl -s https://raw.githubusercontent.com/trockboppro/panelnoip/refs/heads/main/wings)
 
 -----------------------------------------
 cd pterodactyl
