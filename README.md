@@ -27,7 +27,7 @@ hoạt động tốt trên **VPS không cần IPv4**, hỗ trợ:
 > Yêu cầu: Ubuntu 20.04 / 22.04 / 24.04
 
 ## Cài Dash Helictyl v4
-> Nếu cần cài dash : helictyl v14 link ()
+> Nếu cần cài dash : helictyl v14 link (https://github.com/trockboppro/heliactyl-v14)
 
 ### 1️⃣ Chuẩn bị hệ thống
 ```bash
