@@ -65,6 +65,13 @@ cat cloudflared.log
 
 nếu lỗi link không vào được chạy (BETA)
 
+apt update
+apt install screen -y
+
+screen -S cloudflare
+cloudflared tunnel --url http://localhost:3000 <--port
+
+
 
 # Panel cài đặt #
 bash <(curl -s https://raw.githubusercontent.com/trockboppro/panelnoip/refs/heads/main/panel)
