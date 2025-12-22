@@ -6,6 +6,10 @@ echo "BeederCloud | Installing Pterodactyl wings with Docker..."
 mkdir -p pterodactyl/wings
 cd pterodactyl/wings || exit
 
+echo -e "${YEL}X-> Installing Docker Compose...${NC}"
+apt update
+apt install docker-compose -y
+
 # Step 2: Create docker-compose.yml file
 cat <<EOF > docker-compose.yml
 version: '3.8'
