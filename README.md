@@ -90,6 +90,6 @@ pass vô config , config node của bạn
 ------------------------------------------
 cd wings
 ------------------------------------------
-docker-compose up -d --force-recreate
+docker compose up -d --force-recreate
 
 
